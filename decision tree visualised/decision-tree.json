@@ -1,0 +1,248 @@
+{
+    "feature":"Ba",
+    "threshold":0.4,
+    "gini_node":0.736,
+    "values":"[49, 53, 12, 9, 6, 20]",
+    "samples":149,
+    "class":2,
+    "left":{
+       "feature":"Al",
+       "threshold":1.42,
+       "gini_node":0.679,
+       "values":"[48, 52, 12, 8, 6, 2]",
+       "samples":128,
+       "class":2,
+       "left":{
+          "feature":"Ca",
+          "threshold":10.48,
+          "gini_node":0.612,
+          "values":"[43, 23, 10, 1, 2, 1]",
+          "samples":80,
+          "class":1,
+          "left":{
+             "feature":"Mg",
+             "threshold":3.865,
+             "gini_node":0.568,
+             "values":"[43, 17, 10, 0, 1, 1]",
+             "samples":72,
+             "class":1,
+             "left":{
+                "feature":"RI",
+                "threshold":1.517,
+                "gini_node":0.532,
+                "values":"[43, 13, 9, 0, 1, 1]",
+                "samples":67,
+                "class":1,
+                "left":{
+                   "feature":"RI",
+                   "threshold":1.516,
+                   "gini_node":0.678,
+                   "values":"[2, 3, 5, 0, 1, 0]",
+                   "samples":11,
+                   "class":3
+                },
+                "right":{
+                   "feature":"Fe",
+                   "threshold":0.115,
+                   "gini_node":0.427,
+                   "values":"[41, 10, 4, 0, 0, 1]",
+                   "samples":56,
+                   "class":1
+                }
+             },
+             "right":{
+                "feature":"RI",
+                "threshold":1.52,
+                "gini_node":0.32,
+                "values":"[0, 4, 1, 0, 0, 0]",
+                "samples":5,
+                "class":2,
+                "left":{
+                   "feature":"RI",
+                   "threshold":1.518,
+                   "gini_node":0.0,
+                   "values":"[0, 4, 0, 0, 0, 0]",
+                   "samples":4,
+                   "class":2
+                },
+                "right":{
+                   "feature":"RI",
+                   "threshold":1.521,
+                   "gini_node":0.0,
+                   "values":"[0, 0, 1, 0, 0, 0]",
+                   "samples":1,
+                   "class":3
+                }
+             }
+          },
+          "right":{
+             "feature":"RI",
+             "threshold":1.521,
+             "gini_node":0.406,
+             "values":"[0, 6, 0, 1, 1, 0]",
+             "samples":8,
+             "class":2,
+             "left":{
+                "feature":"RI",
+                "threshold":1.52,
+                "gini_node":0.5,
+                "values":"[0, 0, 0, 1, 1, 0]",
+                "samples":2,
+                "class":5,
+                "left":{
+                   "feature":"RI",
+                   "threshold":1.52,
+                   "gini_node":0.0,
+                   "values":"[0, 0, 0, 0, 1, 0]",
+                   "samples":1,
+                   "class":6
+                },
+                "right":{
+                   "feature":"RI",
+                   "threshold":1.52,
+                   "gini_node":0.0,
+                   "values":"[0, 0, 0, 1, 0, 0]",
+                   "samples":1,
+                   "class":5
+                }
+             },
+             "right":{
+                "feature":"RI",
+                "threshold":1.523,
+                "gini_node":0.0,
+                "values":"[0, 6, 0, 0, 0, 0]",
+                "samples":6,
+                "class":2
+             }
+          }
+       },
+       "right":{
+          "feature":"Mg",
+          "threshold":1.985,
+          "gini_node":0.594,
+          "values":"[5, 29, 2, 7, 4, 1]",
+          "samples":48,
+          "class":2,
+          "left":{
+             "feature":"Na",
+             "threshold":13.795,
+             "gini_node":0.42,
+             "values":"[0, 0, 0, 7, 3, 0]",
+             "samples":10,
+             "class":5,
+             "left":{
+                "feature":"RI",
+                "threshold":1.515,
+                "gini_node":0.0,
+                "values":"[0, 0, 0, 7, 0, 0]",
+                "samples":7,
+                "class":5
+             },
+             "right":{
+                "feature":"RI",
+                "threshold":1.516,
+                "gini_node":0.0,
+                "values":"[0, 0, 0, 0, 3, 0]",
+                "samples":3,
+                "class":6
+             }
+          },
+          "right":{
+             "feature":"RI",
+             "threshold":1.522,
+             "gini_node":0.396,
+             "values":"[5, 29, 2, 0, 1, 1]",
+             "samples":38,
+             "class":2,
+             "left":{
+                "feature":"K",
+                "threshold":0.035,
+                "gini_node":0.364,
+                "values":"[5, 29, 2, 0, 1, 0]",
+                "samples":37,
+                "class":2,
+                "left":{
+                   "feature":"RI",
+                   "threshold":1.519,
+                   "gini_node":0.0,
+                   "values":"[0, 0, 0, 0, 1, 0]",
+                   "samples":1,
+                   "class":6
+                },
+                "right":{
+                   "feature":"Na",
+                   "threshold":12.835,
+                   "gini_node":0.329,
+                   "values":"[5, 29, 2, 0, 0, 0]",
+                   "samples":36,
+                   "class":2
+                }
+             },
+             "right":{
+                "feature":"RI",
+                "threshold":1.522,
+                "gini_node":0.0,
+                "values":"[0, 0, 0, 0, 0, 1]",
+                "samples":1,
+                "class":7
+             }
+          }
+       }
+    },
+    "right":{
+       "feature":"Si",
+       "threshold":70.16,
+       "gini_node":0.259,
+       "values":"[1, 1, 0, 1, 0, 18]",
+       "samples":21,
+       "class":7,
+       "left":{
+          "feature":"RI",
+          "threshold":1.523,
+          "gini_node":0.5,
+          "values":"[0, 1, 0, 1, 0, 0]",
+          "samples":2,
+          "class":2,
+          "left":{
+             "feature":"RI",
+             "threshold":1.515,
+             "gini_node":0.0,
+             "values":"[0, 0, 0, 1, 0, 0]",
+             "samples":1,
+             "class":5
+          },
+          "right":{
+             "feature":"RI",
+             "threshold":1.531,
+             "gini_node":0.0,
+             "values":"[0, 1, 0, 0, 0, 0]",
+             "samples":1,
+             "class":2
+          }
+       },
+       "right":{
+          "feature":"Mg",
+          "threshold":3.42,
+          "gini_node":0.1,
+          "values":"[1, 0, 0, 0, 0, 18]",
+          "samples":19,
+          "class":7,
+          "left":{
+             "feature":"RI",
+             "threshold":1.513,
+             "gini_node":0.0,
+             "values":"[0, 0, 0, 0, 0, 18]",
+             "samples":18,
+             "class":7
+          },
+          "right":{
+             "feature":"RI",
+             "threshold":1.52,
+             "gini_node":0.0,
+             "values":"[1, 0, 0, 0, 0, 0]",
+             "samples":1,
+             "class":1
+          }
+       }
+    }
+ }
